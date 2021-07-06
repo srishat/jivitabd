@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>ShopnoNeer</title>
+  <title>User List</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.css">
@@ -46,17 +46,52 @@
 </nav>
 <br>
 
-<div class="text-center">
-  <img src="images/bg.jpg" class="img-index">
+<div class="container">
+  <div class="card">
+    <div class="card-header page-header">
+      User List
+        <a href="signup.html">
+          <button type="button" class="btn theme-btn btn-sm">
+            Add New <i class="fa fa-plus" aria-hidden="true"></i>
+          </button>
+        </a>
+    </div>
+    <div class="card-body">
+      <table class="table table-striped table-hover table-sm">
+        <thead>
+          <tr>
+            <th>SL</th>
+            <th>User Name</th>
+            <th>Email</th>
+            <th>Role</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Muhammad</td>
+            <td>abc@gmail.com</td>
+            <td>DEO</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Muhammad</td>
+            <td>abc@gmail.com</td>
+            <td>Admin</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>
 
 <footer>
-	<div class="row text-center">
-		<div class="col-12">
-			<hr class="light-100">
-			<h5>&copy; All rights reserved | <span class="shopno-green">Shopno<span class="shopno-red">Neer</span></span></h5>
-		</div>
-	</div>
+  <div class="row text-center">
+    <div class="col-12">
+      <hr class="light-100">
+      <h5>&copy; All rights reserved | <span class="shopno-green">Shopno<span class="shopno-red">Neer</span></span></h5>
+    </div>
+  </div>
 </footer>
 
   <script src="js/jquery.js"></script>
